@@ -15,13 +15,13 @@
  
   //création de la requête SQL:
   $sql = "UPDATE projects
-            SET title = '$title',
-		        imgA = '$imgA',
-		        imgB = '$imgB',
-		        descrA = '$descrA',
-                descrB = '$descrB',
-                professor = '$professor'
-                    WHERE idProject  = '$idProject' ";
+          SET title = '$title',
+          imgA = '$imgA',
+          imgB = '$imgB',
+          descrA = '$descrA',
+          descrB = '$descrB',
+          professor = '$professor'
+          WHERE idProject  = '$idProject' ";
  
   //exécution de la requête SQL:
   $requete = mysql_query($sql) or die(mysql_error());

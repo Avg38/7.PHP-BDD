@@ -37,8 +37,8 @@ $presentations =  $pre->fetchAll(PDO::FETCH_ASSOC);
     </div>
     <div id="list" class="col s12 m9 l8 transparent">
       <ul class="hide-on-large-only transparent">
-        <li><a class="waves-effect dropdown-trigger" data-target="dropdown2" href="#!">More<i class="material-icons right">arrow_drop_down</i></a></li>
-        <li><a class="waves-effect dropdown-trigger" href="#!" data-target="dropdown3">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="waves-effect dropdown-trigger" data-target="dropdown2" href="#!">More<i class="material-icons right hide-on-small-only">arrow_drop_down</i></a></li>
+        <li><a class="waves-effect dropdown-trigger" href="#!" data-target="dropdown3">Projects<i class="material-icons right hide-on-small-only">arrow_drop_down</i></a></li>
         <?php require "components/buttonLog.php" ?>
         <?php require "components/admin.php" ?>
       </ul>
